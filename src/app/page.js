@@ -1,5 +1,4 @@
 import UserList from "../components/UserList";
-import UserUpdete from "../components/UserUpdete";
 
 // 서버 컴포넌트에서 데이터 가져오기
 export default async function HomePage() {
@@ -7,7 +6,6 @@ export default async function HomePage() {
   return (
     <div className="h-[100vh] flex justify-center items-center flex-col">
       <UserList />
-      <UserUpdete />
     </div>
   );
 }
